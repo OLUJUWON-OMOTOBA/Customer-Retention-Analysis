@@ -1,6 +1,3 @@
----
-
-
 ## 2) `Customer-Retention-Analysis/README.md`
 
 
