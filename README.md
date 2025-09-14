@@ -1,7 +1,3 @@
-## 2) `Customer-Retention-Analysis/README.md`
-
-
-```markdown
 # Customer Retention Analysis
 
 
