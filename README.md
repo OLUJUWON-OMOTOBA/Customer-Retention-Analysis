@@ -1,15 +1,15 @@
 # Customer Retention Analysis
 
-
-![Power BI](https://img.shields.io/badge/Tool-Power%20BI-blue)
-![Dataset](https://img.shields.io/badge/Dataset-Synthetic-green)
-
-
 ## Overview
 
 
 A customer lifecycle and retention analysis that explores signup cohorts, churn rates, and average customer value. This repo demonstrates cohort analysis, churn calculation, and how to turn retention findings into actionable recommendations.
 
+## Customer Churn Analysis
+<img width="1244" height="706" alt="image" src="https://github.com/user-attachments/assets/2bbf4efa-5639-4509-8425-fbcac1c4c4b3" />
+
+## Churn rate analysis (time based)
+<img width="1240" height="705" alt="image" src="https://github.com/user-attachments/assets/9ea1146c-1dab-454d-b54d-936b3e3f4324" />
 
 ## What’s included
 
@@ -23,18 +23,18 @@ A customer lifecycle and retention analysis that explores signup cohorts, churn 
 ## Key features & highlights
 
 
-- Cohort analysis (retention curves by signup month)
+- Churn analysis (Chart by categories and gender)
 - Churn rate calculation and trends
-- Average monthly spend and simple LTV approximation
+- Churn rate by reason and cities
 
 
 ## Suggested Power BI build steps
 
 
-1. Import `customers.csv` into Power BI Desktop.
-2. Parse `signup_date` and `last_active_date` as Date types.
-3. Create a Date dimension and relate to relevant date columns if you split events across tables.
-4. Create calculated columns: tenure (months active), cohort month (signup month).
+1. Imported `customers.csv` into Power BI Desktop.
+2. Parsed `signup_date` and `last_active_date` as Date types.
+3. Created a Date dimension and relate to relevant date columns if you split events across tables.
+4. Created calculated columns: tenure (months active), cohort month (signup month).
 5. Build visuals:
 - Cohort retention matrix or area chart showing % retained over months since signup
 - Line chart: churn rate over time
@@ -42,7 +42,7 @@ A customer lifecycle and retention analysis that explores signup cohorts, churn 
 6. Add filters for cohort month and customer segments.
 
 
-## Example DAX snippets
+## DAX snippets
 
 
 ```dax
