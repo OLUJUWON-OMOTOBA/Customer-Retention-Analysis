@@ -28,7 +28,7 @@ A customer lifecycle and retention analysis that explores signup cohorts, churn 
 - Churn rate by reason and cities
 
 
-## Suggested Power BI build steps
+## Power BI build steps
 
 
 1. Imported `customers.csv` into Power BI Desktop.
